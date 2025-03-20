@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load("model.pkl")
+model = joblib.load("RFCmodel.pkl")
 
 # Initialize Flask app
 app = Flask(__name__)
